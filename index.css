@@ -1,0 +1,88 @@
+body{
+   background-color: rgb(59, 51, 51);
+   color: aliceblue;
+}
+h3{
+    color: rgb(237, 179, 237);
+}
+.contact{
+    background-color: rgb(156, 50, 156);
+    border: none;
+    border-radius: 3px;
+    padding: 4px;
+    cursor: pointer;
+
+}
+.facebook{
+    color: aliceblue;
+     border: none;
+     border-radius: 3px;
+     padding: 4px;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+.khan{
+    color: rgb(102, 96, 96);
+}
+img{
+    position: relative;
+    bottom: 50px;
+    width: 15%;
+    height: 15%;
+    border: 3px solid yellowgreen;
+    border-radius: 50%;
+}
+.imagekhan{
+    float: right;
+   position: absolute;
+   right: 100px;
+   top: 150px;
+}
+.aboutme{
+    margin: auto;
+    width: 70%;
+    background-color: rgb(75, 55, 55) ;
+    padding: 13px;
+    text-align: center;
+    border-radius: 10%;
+    color: rgb(158, 131, 131);
+}
+label{
+    font-weight: bold;
+    color: beige;
+}
+ul li{
+    list-style: none;
+}
+div h4{
+    width: 50%;
+    background-color: rgb(43, 48, 48);
+    text-align: center;
+    position: relative;
+    left: 25%;
+    color: rgb(238, 226, 118);
+}
+h4{
+    transform: skew(13px 12px);
+    transition: all;
+}
+h4:hover{
+     cursor: pointer;
+    background-color: rgb(22, 44, 44);
+    width: 100px 200px;
+    transition-duration: 2s;
+
+}
+#visit:hover{
+    background-color: rgb(6, 50, 137);
+
+}
+#img{
+    transition: all;
+}
+#img:hover{
+    width: 120px;
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+
+}
